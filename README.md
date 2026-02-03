@@ -1,6 +1,16 @@
 # Compute-GFDL-ESM2M-Thaw-Depths
 This script computes permafrost thaw depths, carbon loss and tundra area change based on monthly model output files.
 
+## Installation
+1. The script uses packages installed:
+   - matplotlib
+   - numpy
+   - NetCDF4
+   - xarray
+If they are missing, these can be installed via pip or conda. 
+
+2. Clone source code
+
 ## How to run
 Run the script: <br />
 ``` python scripts/compute_gfdlesm2m_thawdepth.py _$path_ _$sim_ _$year_start_ _$year_end_ ``` <br />
