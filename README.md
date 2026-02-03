@@ -6,7 +6,7 @@ This script computes permafrost thaw depths, carbon loss and tundra area change 
    - matplotlib
    - numpy
    - NetCDF4
-   - xarray
+   - xarray <br />
 If they are missing, these can be installed via pip or conda. 
 
 2. Clone source code
